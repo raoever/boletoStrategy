@@ -116,7 +116,7 @@ public class Boleto {
                 ", multa=" + multa +
                 ", juros=" + juros +
                 ", agencia='" + agencia + '\'' +
-                ", contaBancaria='" + contaBancaria + '\'' +
+                ", contaBancaria='" + contaBancaria +
                 '}';
     }
 }
