@@ -7,8 +7,8 @@ public class Boleto {
     LeituraRetorno leituraRetorno;
     private int id;
     private String codBanco;
-    LocalDate dataVenciamento;
-    LocalDateTime dataPagamento;
+    private LocalDate dataVencimento;
+    private LocalDateTime dataPagamento;
     private String cpfCliente;
     private double valor, multa, juros;
     private String agencia, contaBancaria;
@@ -40,11 +40,11 @@ public class Boleto {
     }
 
     public LocalDate getDataVenciamento() {
-        return dataVenciamento;
+        return dataVencimento;
     }
 
-    public void setDataVenciamento(LocalDate dataVenciamento) {
-        this.dataVenciamento = dataVenciamento;
+    public void setDataVencimento(LocalDate dataVenciamento) {
+        this.dataVencimento = dataVenciamento;
     }
 
     public LocalDateTime getDataPagamento() {
@@ -109,7 +109,7 @@ public class Boleto {
                 "leituraRetorno=" + leituraRetorno +
                 ", id=" + id +
                 ", codBanco='" + codBanco + '\'' +
-                ", dataVenciamento=" + dataVenciamento +
+                ", dataVenciamento=" + dataVencimento +
                 ", dataPagamento=" + dataPagamento +
                 ", cpfCliente='" + cpfCliente + '\'' +
                 ", valor=" + valor +
