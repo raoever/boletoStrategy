@@ -3,7 +3,7 @@ package padroesDeProjeto;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public abstract class Boleto {
+public class Boleto {
     LeituraRetorno leituraRetorno;
     private int id;
     private String codBanco;
