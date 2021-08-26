@@ -5,7 +5,8 @@ import java.util.List;
 public class ProcessarBoletos {
     private LeituraRetorno leituraRetorno;
 
-    public ProcessarBoletos(LeituraRetornoBB leituraRetornoBB) {
+    public ProcessarBoletos(LeituraRetorno leituraRetorno){
+        this.leituraRetorno = leituraRetorno;
     }
 
     public final void processar(String nomeArquivo){
